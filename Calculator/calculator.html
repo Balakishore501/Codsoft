@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" id="display" disabled>
+        <div class="button-container">
+      
+            <input type="button" value="7" class="digit" onclick="appendToDisplay('7')">
+            <input type="button" value="8" class="digit" onclick="appendToDisplay('8')">
+            <input type="button" value="9" class="digit" onclick="appendToDisplay('9')">
+            <input type="button" value="/" class="operation" onclick="appendToDisplay('/')">
+            <input type="button" value="4" class="digit" onclick="appendToDisplay('4')">
+            <input type="button" value="5" class="digit" onclick="appendToDisplay('5')">
+            <input type="button" value="6" class="digit" onclick="appendToDisplay('6')">
+            <input type="button" value="*" class="operation" onclick="appendToDisplay('*')">
+            <input type="button" value="1" class="digit" onclick="appendToDisplay('1')">
+            <input type="button" value="2" class="digit" onclick="appendToDisplay('2')">
+            <input type="button" value="3" class="digit" onclick="appendToDisplay('3')">
+            <input type="button" value="-" class="operation" onclick="appendToDisplay('-')">
+            <input type="button" value="C" class="clear" onclick="clearDisplay()">
+            <input type="button" value="0" class="digit" onclick="appendToDisplay('0')">
+            <input type="button" value="=" class="equals" onclick="calculate()">
+            <input type="button" value="+" class="operation" onclick="appendToDisplay('+')">
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
